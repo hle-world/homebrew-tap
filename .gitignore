@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+credentials.json
+secrets.json
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE
+.DS_Store
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
