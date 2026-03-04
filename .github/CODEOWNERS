@@ -1,0 +1,5 @@
+# Workflow security — require owner review for CI/CD changes
+/.github/workflows/ @hle-world/owners
+
+# Formula files — require review since this is the source of truth for Homebrew users
+*.rb @hle-world/owners
