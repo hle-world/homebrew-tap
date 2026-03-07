@@ -3,8 +3,8 @@ class HleClient < Formula
 
   desc "Home Lab Everywhere — Expose homelab services with built-in SSO"
   homepage "https://hle.world"
-  url "https://files.pythonhosted.org/packages/e0/6f/8850da9fbb3cb0d48dd8c790252cbecaabc00d963ac01cc6983daa0d3696/hle_client-1.14.0.tar.gz"
-  sha256 "13e6429c6a6c3c4e03f25472dd589f122df93d6484aa2c47b612937b5cdd07b8"
+  url "https://files.pythonhosted.org/packages/c7/10/27cec17ca51ec7f7e049a36782e56cb203d178a11a1a68b83d03a298b16a/hle_client-1.17.0.tar.gz"
+  sha256 "61e730adadaa42638ecaecbdc54ce7f547d35b03b63ef7961d8048f1542e7b2d"
   license "MIT"
 
   depends_on "python@3.13"
@@ -43,18 +43,6 @@ class HleClient < Formula
   resource "idna" do
     url "https://files.pythonhosted.org/packages/6f/6d/0703ccc57f3a7233505399edb88de3cbd678da106337b9fcde432b65ed60/idna-3.11.tar.gz"
     sha256 "795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"
-  end
-  resource "pydantic-settings" do
-    url "https://files.pythonhosted.org/packages/52/6d/fffca34caecc4a3f97bda81b2098da5e8ab7efc9a66e819074a11955d87e/pydantic_settings-2.13.1.tar.gz"
-    sha256 "b4c11847b15237fb0171e1462bf540e294affb9b86db4d9aa5c01730bdbe4025"
-  end
-  resource "pyjwt" do
-    url "https://files.pythonhosted.org/packages/5c/5a/b46fa56bf322901eee5b0454a34343cdbdae202cd421775a8ee4e42fd519/pyjwt-2.11.0.tar.gz"
-    sha256 "35f95c1f0fbe5d5ba6e43f00271c275f7a1a4db1dab27bf708073b75318ea623"
-  end
-  resource "python-dotenv" do
-    url "https://files.pythonhosted.org/packages/82/ed/0301aeeac3e5353ef3d94b6ec08bbcabd04a72018415dcb29e588514bba8/python_dotenv-1.2.2.tar.gz"
-    sha256 "2c371a91fbd7ba082c2c1dc1f8bf89ca22564a087c2c287cd9b662adde799cf3"
   end
   resource "rich" do
     url "https://files.pythonhosted.org/packages/b3/c6/f3b320c27991c46f43ee9d856302c70dc2d0fb2dba4842ff739d5f46b393/rich-14.3.3.tar.gz"
