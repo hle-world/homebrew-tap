@@ -1,7 +1,7 @@
 class HleClient < Formula
   include Language::Python::Virtualenv
 
-  desc "Home Lab Everywhere — Expose homelab services with built-in SSO"
+  desc "HomeLab Everywhere — Expose homelab services with built-in SSO"
   homepage "https://hle.world"
   url "https://files.pythonhosted.org/packages/c1/e3/db732d711563ca753b7ac043e95b6172b5eeb2177173e0e168228bbec1dd/hle_client-1.18.0.tar.gz"
   sha256 "732be8aae93d2fe652ba718546e890a9e14d79af918617f2665a30e283380766"

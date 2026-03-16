@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Homebrew tap for [HLE](https://github.com/hle-world/hle-client) — Home Lab Everywhere.
+Homebrew tap for [HLE](https://github.com/hle-world/hle-client) — HomeLab Everywhere.
 
 ## Install
 
