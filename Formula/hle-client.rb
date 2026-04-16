@@ -3,8 +3,8 @@ class HleClient < Formula
 
   desc "HomeLab Everywhere — Expose homelab services with built-in SSO"
   homepage "https://hle.world"
-  url "https://files.pythonhosted.org/packages/1d/ee/e61c625b35f5fdfabb3fbde0be5f974e07a09ba01915b7d271ecaf8ab885/hle_client-2604.1.tar.gz"
-  sha256 "9cb17b10d98c9a86d3b37f02b3b5f0309df61c5573c443cd463684c671f03fe2"
+  url "https://files.pythonhosted.org/packages/9f/96/f211458a6d8706df4a57ef39fcf5db539d5a05d14a480be72750b2acef9e/hle_client-2604.2.tar.gz"
+  sha256 "1ca9027b8de10870daf5043f8cd8f0a7f9167956b098d3cc8e875b24a6f9f893"
   license "MIT"
 
   depends_on "python@3.13"
@@ -45,8 +45,8 @@ class HleClient < Formula
     sha256 "795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"
   end
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/b3/c6/f3b320c27991c46f43ee9d856302c70dc2d0fb2dba4842ff739d5f46b393/rich-14.3.3.tar.gz"
-    sha256 "b8daa0b9e4eef54dd8cf7c86c03713f53241884e814f4e2f5fb342fe520f639b"
+    url "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13a6a0c696dacf35430f72e0ec571c4275d2371fca3e9/rich-15.0.0.tar.gz"
+    sha256 "edd07a4824c6b40189fb7ac9bc4c52536e9780fbbfbddf6f1e2502c31b068c36"
   end
   resource "typing-extensions" do
     url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
