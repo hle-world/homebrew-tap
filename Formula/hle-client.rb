@@ -3,8 +3,8 @@ class HleClient < Formula
 
   desc "HomeLab Everywhere — Expose homelab services with built-in SSO"
   homepage "https://hle.world"
-  url "https://files.pythonhosted.org/packages/a2/b4/96b2550ef7812511f125ac614ad76fbc5300b2d8e4d0fe4df1e4df8d1f28/hle_client-2609.6.tar.gz"
-  sha256 "c7b0900fba6200127bbf0bf71e173c2ac21f6020ceafd88ea48f60362e590564"
+  url "https://files.pythonhosted.org/packages/b2/b7/e04e2b2f9712038625d81e53a6b64728a87bead7428cbd95c1f124b1c5b9/hle_client-2609.7.tar.gz"
+  sha256 "d63abd34244e40a7583a391921c8692ac0a13fc25bcd0fb76e0f119b2f0f4eda"
   license "MIT"
 
   depends_on "python@3.13"
@@ -37,8 +37,8 @@ class HleClient < Formula
     sha256 "75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc"
   end
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/5f/f7/abb373e5757eaec4b922b92f97ec8d6d7e057cf06778247604fbc4e7c3f3/idna-3.19.tar.gz"
-    sha256 "5e0811a4383b21dc5838069f801c4fb62113b7447663d2530d2bd6e77b49bf15"
+    url "https://files.pythonhosted.org/packages/f5/08/8eea9d4b8302028f3abb2c0813953f7aec26d33b7a8960ed760e65ff29fa/idna-3.20.tar.gz"
+    sha256 "a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44"
   end
   resource "typing-extensions" do
     url "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
