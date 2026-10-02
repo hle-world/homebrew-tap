@@ -3,8 +3,8 @@ class HleClient < Formula
 
   desc "HomeLab Everywhere — Expose homelab services with built-in SSO"
   homepage "https://hle.world"
-  url "https://files.pythonhosted.org/packages/ac/73/2964a8baa68c3acd209012920cb0039ee5e6703fb8b62f5858faabc9b07d/hle_client-2609.10.tar.gz"
-  sha256 "7a4e3f81d1c60c711165fb891b508e5f0930fb4a6cada7aacff8679e2b14c4eb"
+  url "https://files.pythonhosted.org/packages/38/14/e05535e6251eae285dad7ebc88a0cd387fedd36ffc10e0c8d99d55450ac5/hle_client-2610.1.tar.gz"
+  sha256 "5405b9fcd8d796ecb503941a82425ac47b433c1a3197fc7bd887b8361a292d67"
   license "MIT"
 
   depends_on "python@3.13"
