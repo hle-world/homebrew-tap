@@ -3,8 +3,8 @@ class HleClient < Formula
 
   desc "HomeLab Everywhere — Expose homelab services with built-in SSO"
   homepage "https://hle.world"
-  url "https://files.pythonhosted.org/packages/38/14/e05535e6251eae285dad7ebc88a0cd387fedd36ffc10e0c8d99d55450ac5/hle_client-2610.1.tar.gz"
-  sha256 "5405b9fcd8d796ecb503941a82425ac47b433c1a3197fc7bd887b8361a292d67"
+  url "https://files.pythonhosted.org/packages/ab/a1/96cb29a3f3f832d0526f1b2a4b19cf8472c03c8eccb5f3ea30e2481b17a3/hle_client-2610.3.tar.gz"
+  sha256 "5b94f90ad4d128e0cf2db7e113427d9eb5665d23610b5fcb8a326f63d7771abd"
   license "MIT"
 
   depends_on "python@3.13"
@@ -45,8 +45,8 @@ class HleClient < Formula
     sha256 "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
   end
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/18/72/fba934cb3dff7a85d811820efffcd141ddd52b5a2a01637f64551373ff4d/websockets-17.1.tar.gz"
-    sha256 "acfea4c20bf54384883ea33b1240fc1db4f52e190823a4e2b334bc3e8bfca96a"
+    url "https://files.pythonhosted.org/packages/01/89/3f825ab71c242fffb62ea8fe638741c290f62f8d7aadf8125ff897747af3/websockets-17.2.tar.gz"
+    sha256 "36c2fb94c990cc2545143b12690e2de6c16300f9dbe5b4f33fa300cf57dc8792"
   end
 
   def install
