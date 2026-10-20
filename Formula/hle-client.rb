@@ -3,8 +3,8 @@ class HleClient < Formula
 
   desc "HomeLab Everywhere — Expose homelab services with built-in SSO"
   homepage "https://hle.world"
-  url "https://files.pythonhosted.org/packages/46/41/67319d7e7066699b609765ff01b0c1036c70633948bee2398adfa5340708/hle_client-2610.12.tar.gz"
-  sha256 "543261fa94ba57c4fb37394dd45209c30dab2c9d294d00b2b853d576bc6c6cc8"
+  url "https://files.pythonhosted.org/packages/c7/e4/31b8d13c6714177fb648ec691240afc33f3b87a15ce4d08f296b4170ccab/hle_client-2610.13.tar.gz"
+  sha256 "671b445d13329f8f65d11995337f1717d0d86c9b79161a1276c3111933e42c4b"
   license "MIT"
 
   depends_on "python@3.13"
@@ -17,8 +17,8 @@ class HleClient < Formula
     sha256 "9f28306018cbd6d329e64a36d58256edff76dd996fe423bc957326e578b82a94"
   end
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/7e/eb/a2aa1ac3ea30dd3f30ca57f40232138b6b0040719316ecb85daf61167771/certifi-2026.10.18.tar.gz"
-    sha256 "b9995d97b64d0431a5af837d8ca8cd6238104d1f319f04bd93ea43124d6c861e"
+    url "https://files.pythonhosted.org/packages/a6/bd/1436c50cc46699de0230fbaacc1d1de7bfec413176099949e9d5112e88f2/certifi-2026.10.19.tar.gz"
+    sha256 "035c1e85572b141bf1c3a3eff0e33a8eb74917522f2559075ff8d2fea780a1ae"
   end
   resource "click" do
     url "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz"
