@@ -3,8 +3,8 @@ class HleClient < Formula
 
   desc "HomeLab Everywhere — Expose homelab services with built-in SSO"
   homepage "https://hle.world"
-  url "https://files.pythonhosted.org/packages/4b/8e/7d9d79163655eac9fc99df25df586a6368f33d7e593196e3772f35d3d2bf/hle_client-2611.1.tar.gz"
-  sha256 "d07efdb319ea94ecc4f217f4f5ccd7f81617023a523ed43874dafd2292ac98cf"
+  url "https://files.pythonhosted.org/packages/c7/a0/b57389f784107a87da8f4a309cacd95af6bbeedcd87e5cb47499d57ffeae/hle_client-2611.3.tar.gz"
+  sha256 "2b8ef876d62035a187ac559e8d35c605b3d372317795a5f305d849fcb6e7f773"
   license "MIT"
 
   depends_on "python@3.13"
@@ -21,8 +21,8 @@ class HleClient < Formula
     sha256 "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd"
   end
   resource "click" do
-    url "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz"
-    sha256 "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"
+    url "https://files.pythonhosted.org/packages/45/37/edbf1b0707709013c0cf2e8317e03d97ed29bf4cac709fe328904ae92a38/click-8.5.1.tar.gz"
+    sha256 "9bbfada76703fd1d784b83eea012e3e8c6a001a876543ef104fa56aaaeb072b4"
   end
   resource "h11" do
     url "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
